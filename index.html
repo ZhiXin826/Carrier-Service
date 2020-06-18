@@ -25,9 +25,22 @@ body, html {
 .w3-bar .w3-button {
   padding: 16px;
 }
-  
-/*menu font change color*/
-li.home:hover, li.home:active {color: red;}
+ 
+
+/*Sticky Menu*/
+window.onscroll = function() {myFunction()};
+
+var container-fluid = document.getElementById("container-fluid");
+
+var sticky = container-fluid.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    container-fluid.classList.add("sticky")
+  } else {
+    container-fluid.classList.remove("sticky");
+  }
+}
 
 </style>
 <body>
@@ -66,21 +79,6 @@ li.home:hover, li.home:active {color: red;}
     </ul>
   </div>
 </nav> 
-
-<!--Sticky Menu-->
-window.onscroll = function() {myFunction()};
-
-var container-fluid = document.getElementById("container-fluid");
-
-var sticky = container-fluid.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    container-fluid.classList.add("sticky")
-  } else {
-    container-fluid.classList.remove("sticky");
-  }
-}
 
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">

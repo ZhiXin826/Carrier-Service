@@ -26,31 +26,6 @@ body, html {
   padding: 16px;
 }
 
-<html>
-<style>
-<head> 
-<script>
-<body>
-/*Sticky Menu*/
-window.onscroll = function() {myFunction()};
-
-var nav = document.getElementById("container-fluid");
-
-var sticky = container-fluid.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    container-fluid.classList.add("sticky")
-  } else {
-    container-fluid.classList.remove("sticky");
-  }
-}
-
-</script>
-</head>
-</body>
-</style>
-
 <!-- Navbar -->
 <html lang="en">
 <head>
@@ -63,7 +38,7 @@ function myFunction() {
 </head>
 <body>
 
-  <div class="container-fluid">
+  <div class="container-fluid" style = "position: fixed">
     <div class="navbar-header">
       <a class="navbar-brand" style="color: black" href="#">MCourier</a>
     </div>

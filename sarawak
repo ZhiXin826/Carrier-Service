@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(one){background-color: #f2f2f2}
+</style>
+</head>
+<body>
+
+<h2>Sarawak Courier Services Pricing</h2>
+
+<div style="overflow-x:auto;">
+  <table>
+    <tr>
+      <th>WEIGHT</th>
+      <th>PRICE</th>
+      <th>EXPRESS PRICE</th>
+    </tr>
+    <tr>
+      <td><0.50 KG</td>
+      <td>RM5.00</td>
+      <td>RM8.00</td>
+    </tr>
+    <tr>
+      <td><0.75 KG</td>
+      <td>RM6.00</td>
+      <td>RM9.00</td>
+    </tr>
+    <tr>
+      <th><1.00 KG</th>
+      <th>RM7.50</th>
+      <th>RM11.00</th>
+    </tr>
+    <tr>
+      <th><1.25 KG</th>
+      <th>RM9.00</th>
+      <th>RM12.50</th>
+    </tr>
+    <tr>
+      <th><1.50 KG</th>
+      <th>RM10.00</th>
+      <th>RM14.00</th>
+    </tr>
+    <tr>
+      <th><1.75 KG</th>
+      <th>RM11.50</th>
+      <th>RM15.50</th>
+    </tr>
+    <tr>
+      <th><2.00 KG</th>
+      <th>RM13.00</th>
+      <th>RM17.50</th>
+    </tr>
+    <tr>
+      <th><2.50 KG</th>
+      <th>RM19.00</th>
+      <th>RM23.50</th>
+    </tr>
+    <tr>
+      <th><3.00 KG</th>
+      <th>RM23.00</th>
+      <th>RM28.00</th>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
